@@ -2,6 +2,7 @@
 Recreates a MegaDrive boot screen.
 
 I was inspired to add this after seeing: https://www.facebook.com/M5Stack/posts/2769865619915835:0
+
 The M5Stack company has emulated Sonic the Hedgehog, so I figured it was safe to do a tiny but of recreation of my own.
 
 It takes only 203Kb for this classic effect, so even on a small 4MB flash version of the M5Stack core, it leaves 95% free!
