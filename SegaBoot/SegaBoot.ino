@@ -13,6 +13,11 @@ void startupLogo() {
   M5.Lcd.setBrightness(0);
   M5.Lcd.clear(TFT_BLACK);
   M5.Lcd.drawBitmap(57, 75, 205, 70, (uint16_t *)sega_video205x70);
+  // Soft speaker start.
+  for (int i = 0; i < 50; i++) {
+    dacWrite(SPEAKER_PIN, i);
+    delay(5);
+  }
   for (int i = 0; i < length; i++) {
     dacWrite(SPEAKER_PIN, sega_audio[i] >> 2);
     delayMicroseconds(50);
