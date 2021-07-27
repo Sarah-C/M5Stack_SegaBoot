@@ -1,5 +1,5 @@
 # M5Stack_SegaBoot
-Recreates a MegaDrive boot screen.
+Recreates a MegaDrive boot screen and audio.
 
 I was inspired to make this after seeing the M5Stack-Core-Grey factory test where the logo fades up, and the little jingle plays.
 Then when I saw M5Stack was involved in an emulator for Sonic the Hedgehog, I knew I just had to write a little boot intro for everyone! https://www.facebook.com/M5Stack/posts/2769865619915835:0
